@@ -1,0 +1,1 @@
+SELECT candidate_id from candidates where skill in ('Python','Tableau','PostgreSQL') GROUP by 1 having count(1) = 3; 
